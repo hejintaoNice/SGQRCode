@@ -14,7 +14,7 @@
 ///
 /// @param scanCode     SGScanCode 对象
 /// @param result       扫描二维码数据
-- (void)scanCode:(SGScanCode *)scanCode result:(NSString *)result;
+- (void)scanCode:(SGScanCode *)scanCode result:(NSString *)result codeType:(NSString *)type;
 
 @end
 
